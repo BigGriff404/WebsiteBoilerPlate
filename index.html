@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!-- START @yungaddydev on Instagram -->
+<!-- language attribute is English by Default -->
+<html lang="en">
+ <head>
+  <!-- Title Of Webpage -->
+  <title>Griff's BoilerPlate</title>
+  <!-- META DATA START -->
+  <!--UTF-8 standard character encoding -->
+  <meta charset="UTF-8" />
+  <!-- Description is used as a part of the snippet shown in the search results. -->
+  <meta
+   name="description"
+   content="Griffin Domino AKA @YungAddyDev is a freelance web developer"
+  />
+  <!-- Internet Explorer -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Simple mobile viewport setup -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- OPEN GRAPH -->
+  <meta property="og:title" content="YungAddyDev Freelance" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yungaddydev.netlify.app" />
+  <meta
+   name="og:description"
+   content="Griffin Domino AKA @YungAddyDev is a freelance web developer"
+  />
+  <meta
+   property="og:image"
+   content="https://yungaddyboilerplate.netlify.app/images/YADThumbnail.png"
+  />
+  <!-- TWITTER START -->
+  <!-- Twitter Cards help make links look good on their app -->
+  <!-- REFERENCE: https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/abouts-cards -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@YungAddyDev" />
+  <meta name="twitter:creator" content="@YungAddyDev" />
+  <meta name="twitter:url" content="https://yungaddydev.netlify.app" />
+  <meta name="twitter:title" content="YungAddyDev's Website" />
+  <meta
+   name="twitter:description"
+   content="Griffin Domino AKA @YungAddyDev is a freelance web developer based in Atlanta, Georgia"
+  />
+  <meta
+   name="twitter:image"
+   content="https://yungaddyboilerplate.netlify.app/images/YADThumbnail.png"
+  />
+  <!-- TWITTER END -->
+  <!-- META DATA END -->
+  <!-- WEB APP MANIFEST -->
+  <!-- Part of a collection of web technologies called progressive web apps (PWAs) -->
+  <link rel="manifest" href="site.webmanifest" />
+  <!-- FontAwesome CDN -->
+  <link
+   rel="stylesheet"
+   href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+   integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+   crossorigin="anonymous"
+  />
+  <!-- FAVICON START -->
+  <link
+   rel="apple-touch-icon"
+   sizes="180x180"
+   href="favicon/apple-touch-icon.png"
+  />
+  <link
+   rel="icon"
+   type="image/png"
+   sizes="32x32"
+   href="favicon/favicon-32x32.png"
+  />
+  <link
+   rel="icon"
+   type="image/png"
+   sizes="16x16"
+   href="favicon/favicon-16x16.png"
+  />
+  <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#603cba" />
+  <meta name="msapplication-TileColor" content="#603cba" />
+  <meta name="theme-color" content="#ffffff" />
+  <!-- FAVICON END -->
+  <!-- Importing the hamburger menu icon from REMIX ICON CDN -->
+  <link
+   href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+   rel="stylesheet"
+  />
+  <!-- STYLESHEETS -->
+  <link rel="stylesheet" href="css/main.css" />
+  <!-- GOOGLE FONTS | RUBIK FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+   href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+   rel="stylesheet"
+  />
+  <!-- GOOGLE FONT END -->
+ </head>
+ <!-- END OF HEAD -->
+ <body>
+  <!-- NavBar Section -->
+  <nav class="navbar">
+   <div class="navbar__container">
+    <!-- HOME -->
+    <a href="#home" class="logo" id="navbar__logo">yungAddyDev</a>
+    <!-- HAMBURGER MENU FROM REMIX ICON -->
+    <!-- The order that we place the checkbox and label here is important because we will use css only for the click event to open the menu on mobile. -->
+    <input type="checkbox" id="toggler" />
+    <label for="toggler"><i class="ri-menu-line"></i></label>
+    <ul class="navbar__menu">
+     <li class="navbar__item">
+      <a href="#home" class="navbar__links" id="home-page">Home</a>
+     </li>
+     <li class="navbar__item">
+      <a href="#about" class="navbar__links" id="about-page">About</a>
+     </li>
+     <li class="navbar__item">
+      <a href="#services" class="navbar__links" id="services">Services</a>
+     </li>
+     <li class="navbar__btn">
+      <a href="#contact" class="btn" id="contact">Contact</a>
+     </li>
+    </ul>
+   </div>
+  </nav>
+
+  <!-- HEADER START -->
+  <section class="headerSection">
+   <div class="hero" id="home">
+    <div class="hero__container">
+     <h1 class="hero__heading" id="main-title">YungAddyDev at your service!</h1>
+     <!-- CTA: Call To Action -->
+     <p id="cta">
+      Helping with your digital footprint <br />
+      one small buisness at a time!
+     </p>
+    </div>
+   </div>
+  </section>
+  <!-- HEADER END -->
+
+  <!--JAVASCRIPT -->
+  <script src="js/main.js"></script>
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+   window.ga = function () {
+    ga.q.push(arguments);
+   };
+   ga.q = [];
+   ga.l = +new Date();
+   ga("create", "UA-XXXXX-Y", "auto");
+   ga("set", "anonymizeIp", true);
+   ga("set", "transport", "beacon");
+   ga("send", "pageview");
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+  <!-- END GOOGLE -->
+ </body>
+
+ <!-- FOOTER -->
+ <footer id="footerContent">
+  <div class="contact-info">
+   <h5>Author: Griffin Domino</h5>
+   <p>Email:<a href="mailto:yungaddydev@gmail.com">yungaddydev@gmail.com</a></p>
+   <!-- AnimatedHeart -->
+   <!-- REFERENCE: https://css-tricks.com/hearts-in-html-and-css/ -->
+   <p class="with-love">
+    Made with
+    <svg class="heart" viewBox="0 0 32 29.6">
+     <path
+      d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+      c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"
+     />
+    </svg>
+    by <a href="https://www.instagram.com/yungaddydev/">@yungaddydev</a>
+   </p>
+  </div>
+ </footer>
+</html>
+<!-- END @yungaddydev on Instagram -->

@@ -1,0 +1,14 @@
+/* TEAM */
+
+Your title: YungAddyDev & MarkustheMonster
+Site: https://griffsportfolio.netlify.app/#contact-tab
+Twitter: @yungaddydev
+Location: Atlanta, United States of America
+
+/* THANKS */
+
+Name: MarkustheMonster
+
+/* SITE */
+Last update: 2022/6/02
+Standards: HTML5, CSS3, JAVASCRIPT
