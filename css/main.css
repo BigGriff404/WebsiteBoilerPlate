@@ -7,9 +7,46 @@
  --backgroundColor: #f7faea;
  --heartColor: darkviolet;
 
+ --ctaGradient: linear-gradient(
+  hsl(255.5, 50.8%, 23.9%),
+  hsl(282.7, 66.5%, 41%)
+ );
+ --myDarkCyan: hsl(162.7, 66.5%, 41%);
+ --myDarkOrange: hsl(42.7, 66.5%, 41%);
+
  --selectionBGColor: #9b20b7;
  --selectionTEXTColor: #f7faea;
 }
+
+/* CUSTOM SCROLLBAR START */
+/* REFERENCE: https://www.youtube.com/watch?v=lvKK2fs6h4I&list=WL&index=9 */
+/* CHROME */
+::-webkit-scrollbar {
+ width: 1em;
+}
+::-webkit-scrollbar-track {
+ background: var(--myDarkCyan);
+ border-radius: 100vw;
+ margin-block: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+ background: var(--ctaGradient);
+ border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb:hover {
+ background: var(--myDarkOrange);
+}
+/* FIREFOX */
+@supports (scrollbar-color: red blue) {
+ * {
+  scrollbar-color: #8623ae hsl(162.7, 66.5%, 41%);
+  scrollbar-width: auto;
+ }
+}
+
+/* CUSTOM SCROLLBAR END */
 
 * {
  box-sizing: border-box;
@@ -145,12 +182,13 @@ a {
 }
 
 .btn:hover {
- box-shadow: 2px 2px #2e1e5c, 4px 4px #2e1e5c, 5px 5px #2e1e5c;
+ box-shadow: 2px 2px var(--myDarkCyan), 4px 4px var(--myDarkCyan),
+  5px 5px var(--myDarkCyan);
  transform: translateX(-3px);
 }
 
 .navbar__links:hover {
- color: aqua;
+ color: var(--myDarkCyan);
  transition: all 0.3s ease;
 }
 
@@ -160,7 +198,7 @@ a {
 }
 
 .ri-menu-line {
- color: aqua;
+ color: var(--myDarkCyan);
  font-size: 1.75rem;
  cursor: pointer;
  display: none;
@@ -196,7 +234,7 @@ a {
   cursor: pointer;
   font-size: 2rem;
   padding-right: 25px;
-  color: aqua;
+  color: var(--myDarkCyan);
   margin: 5px auto;
  }
 
@@ -260,14 +298,59 @@ a {
 
 .hero {
  display: grid;
+
  align-content: center;
  text-align: center;
 }
 
 /* MAIN */
-.main-content {
- width: min(90%, 1000px);
+.aboutSection {
+ width: min(80%, 900px);
  margin-inline: auto;
+}
+
+/* FORM / CONTACT */
+
+#contact-form {
+ display: block;
+ max-width: 600px;
+ margin: 0 auto;
+ border: 0.125rem solid PURPLE;
+ padding: 15px;
+ border-radius: 30px;
+ background-color: var(--backgroundColor);
+ margin-bottom: 50px;
+ /* box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff; */
+}
+
+#contact-form label {
+ line-height: 2.7em;
+}
+
+#contact-form textarea {
+ min-height: 100px;
+ font-size: 14px;
+}
+
+.input-field {
+ width: 100%;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ background-color: #fff;
+ border-radius: 5px;
+ border: 1px solid purple;
+ font-size: 14px;
+ margin: 0rem 0rem;
+}
+
+#submit-btn {
+ margin-top: 10px;
+ width: 100%;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ color: var(--myDarkCyan);
+ background-color: var(--buttonColor);
+ border: 1px solid ;
 }
 
 /* HEART START */
