@@ -315,7 +315,7 @@ a {
  display: block;
  max-width: 600px;
  margin: 0 auto;
- border: 0.125rem solid PURPLE;
+ border: 0.125rem solid var(--myDarkCyan);
  padding: 15px;
  border-radius: 30px;
  background-color: var(--backgroundColor);
@@ -339,7 +339,7 @@ a {
  padding: 10px;
  background-color: #fff;
  border-radius: 5px;
- border: 1px solid purple;
+ border: 1px solid var(--myDarkCyan);
  font-size: 14px;
  margin: 0rem 0rem;
 }
@@ -385,6 +385,7 @@ legend {
  background: var(--ctaGradient);
  padding: 0.2em 1em;
  color: var(--backgroundColor);
+ margin-right: 20rem;
 }
 
 footer {
