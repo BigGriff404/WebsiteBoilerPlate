@@ -387,9 +387,6 @@ legend {
  color: var(--backgroundColor);
 }
 
-input {
- accent-color: var(--ctaGradient);
-}
 
 footer {
  padding-top: 2rem;
