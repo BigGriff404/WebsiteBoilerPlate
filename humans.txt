@@ -1,13 +1,13 @@
 /* TEAM */
 
-Your title: YungAddyDev & MarkustheMonster
-Site: https://griffsportfolio.netlify.app/#contact-tab
+Your title: YungAddyDev Freelance
+Site: https://yungaddyboilerplate.netlify.app
 Twitter: @yungaddydev
 Location: Atlanta, United States of America
 
 /* THANKS */
 
-Name: MarkustheMonster
+Name: YungAddyDev
 
 /* SITE */
 Last update: 2022/6/02
