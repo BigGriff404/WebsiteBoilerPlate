@@ -97,7 +97,7 @@
   <!-- GOOGLE FONT END -->
  </head>
  <!-- END OF HEAD -->
- <body >
+ <body>
   <!-- NavBar Section -->
   <nav class="navbar">
    <div class="navbar__container">
@@ -275,32 +275,59 @@
   <script src="https://www.google-analytics.com/analytics.js" async></script>
   <!-- END GOOGLE -->
   <section class="s4">
+   <div class="main-container">
+    <h2 style="text-align: center" id="contact-tab">Contact</h2>
     <div class="main-container">
-        <h2 style="text-align: center" id="contact-tab">Contact</h2>
-        <div class="main-container">
-            <h3 style="text-align: center">Get In Touch</h3>
+     <h3 style="text-align: center">Get In Touch</h3>
 
-            <form id="contact-form" data-netlify="true">
-                <!-- Netlify Form -->
-                <a name="contact"></a>
+     <form id="contact-form" data-netlify="true">
+      <!-- Netlify Form -->
+      <a name="contact"></a>
+      <legend>Enter Your Information Here:</legend>
+      <label>Name</label>
+      <input
+       title="Writing your name is 10pts added to your Final Grade!"
+       class="input-field"
+       type="text"
+       name="name"
+       placeholder="Joe Mama"
+       required
+      />
 
-                <label>Name</label>
-                <input class="input-field" type="text" name="name" placeholder="Joe Mama" required />
+      <label>Buisness Industry</label>
+      <input
+       title="This part shouldn't be hard!"
+       class="input-field"
+       type="text"
+       name="subject"
+       placeholder="Food, Healthcare, Architecture, Consulting, Technology, ETC."
+       required
+      />
 
-                <label>Buisness Industry</label>
-                <input class="input-field" type="text" name="subject" placeholder="Food, Healthcare, Architecture, Consulting, Technology, ETC."  required />
+      <label>Email</label>
+      <input
+       title="If you don't have an email address, you better figure it out! "
+       class="input-field"
+       type="text"
+       name="email"
+       placeholder="joe.mama@yourdaddyhouse.net"
+       required
+      />
 
-                <label>Email</label>
-                <input class="input-field" type="text" name="email" placeholder="joe.mama@yourdaddyhouse.net" required />
+      <label>Message</label>
+      <textarea
+       title="Tell me something about yourself, your buisness, and the services you need! Please be detailed as possible!"
+       class="input-field"
+       name="message"
+       placeholder="I need a website for my buisness!"
+       required
+      ></textarea>
 
-                <label>Message</label>
-                <textarea class="input-field" name="message" placeholder="I need a website for my buisness!" required></textarea>
-
-                <input id="submit-btn" type="submit" value="Send" />
-            </form>
-        </div>
+      <input id="submit-btn" type="submit" value="Send" />
+     </form>
     </div>
-</section>
+   </div>
+  </section>
  </body>
 
  <!-- FOOTER -->
