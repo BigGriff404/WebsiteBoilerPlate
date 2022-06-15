@@ -525,7 +525,7 @@ body {
 
 /* HEART START */
 .with-love {
- font-size: 40px;
+ font-size: 30px;
  color: var(--text-color);
 }
 .heart {
@@ -559,6 +559,11 @@ legend {
 fieldset {
  margin-bottom: 30px;
  border: none;
+}
+
+
+a[href^="mailto:"]::after {
+ content: "📧📨📩";
 }
 
 footer {
