@@ -199,8 +199,9 @@
 
      <form name="Contact" id="contact-form" data-netlify="true" method="POST">
       <!-- Netlify Form -->
+      <fieldset>
       <legend>Enter Your Information Here:</legend>
-      <label>Name</label>
+      <label for="name">Name</label>
       <input
        title="Writing your name is 10pts added to your Final Grade!"
        class="input-field"
@@ -220,17 +221,17 @@
        required
       />
 
-      <label>Email</label>
+      <label for="email">Email</label>
       <input
        title="If you do not have an email address, you better figure it out! "
        class="input-field"
-       type="text"
+       type="email"
        name="email"
        placeholder="joe.mama@yourdaddyhouse.net"
        required
       />
 
-      <label>Message</label>
+      <label for="message">Message</label>
       <textarea
        title="Tell me something about yourself, your business, and the services you need! Please be detailed as possible!"
        class="input-field"
@@ -260,6 +261,7 @@
       <label for="secondFavColor"> What is your second favorite color?</label>
 
       <input id="submit-btn" type="submit" value="Send" />
+    </fieldset>
      </form>
     </div>
    </div>

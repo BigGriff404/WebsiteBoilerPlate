@@ -324,7 +324,6 @@ body {
  }
 }
 
-
 /* HERO END */
 
 /* ABOUT START */
@@ -474,7 +473,6 @@ body {
  .main__content p {
   margin-top: 2rem;
  }
-
 }
 
 /* ABOUT END */
@@ -485,7 +483,7 @@ body {
  display: block;
  max-width: 600px;
  margin: 0 auto;
- border: 0.125rem solid var(--myDarkCyan);
+ /* border: 0.125rem solid var(--myDarkCyan); */
  padding: 15px;
  border-radius: 30px;
  background-color: var(--backgroundColor);
@@ -556,6 +554,11 @@ legend {
  padding: 0.2em 1em;
  color: var(--backgroundColor);
  margin-right: 20rem;
+}
+
+fieldset {
+ margin-bottom: 30px;
+ border: none;
 }
 
 footer {
