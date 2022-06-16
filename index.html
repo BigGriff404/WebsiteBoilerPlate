@@ -20,8 +20,11 @@
   <!-- Internet Explorer -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <!-- Simple mobile viewport setup -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta
+   name="viewport"
+   content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1, minimum-scale=1"
+  />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
   <!-- OPEN GRAPH -->
   <meta property="og:title" content="YungAddyDev Freelance" />
   <meta property="og:type" content="website" />
@@ -120,7 +123,9 @@
       <a href="#about-section" class="navbar__links" id="about-page">About</a>
      </li>
      <li class="navbar__item">
-      <a href="#services-section" class="navbar__links" id="services">Services</a>
+      <a href="#services-section" class="navbar__links" id="services"
+       >Services</a
+      >
      </li>
      <li class="navbar__btn">
       <a href="#contact" class="btn">Contact</a>
@@ -143,7 +148,9 @@
        Helping with your digital footprint <br />
        one small business at a time!
       </p>
-      <button class="main__btn"><a href="#services-section">Let's Meet</a></button>
+      <button class="main__btn">
+       <a href="#services-section">Let's Meet</a>
+      </button>
      </main>
     </div>
    </div>
@@ -229,12 +236,9 @@
   <script src="https://www.google-analytics.com/analytics.js" async></script>
   <!-- END GOOGLE -->
   <!-- CONTACT SECTION -->
-  <section class="s4" id="contact">
+  <section class="contactSection" id="contact">
    <div class="main-container">
-    <h2 style="text-align: center" id="contact-tab">Contact</h2>
     <div class="main-container">
-     <h3 style="text-align: center">Get In Touch</h3>
-
      <form name="Contact" id="contact-form" data-netlify="true" method="POST">
       <!-- Netlify Form -->
       <fieldset>
