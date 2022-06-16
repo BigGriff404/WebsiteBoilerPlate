@@ -759,7 +759,7 @@ fieldset {
 }
 
 a[href^="mailto:"]::after {
- content: "📧📨📩";
+ content: "&#128231; 📨📩";
 }
 
 footer {
