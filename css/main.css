@@ -677,8 +677,7 @@ body {
 /* FORM / CONTACT */
 
 .contactSection {
- overflow: auto;
- max-width: fit-content;
+ overflow: auto; 
 }
 
 #contact-form {
