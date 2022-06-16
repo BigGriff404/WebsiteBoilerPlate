@@ -676,6 +676,11 @@ body {
 
 /* FORM / CONTACT */
 
+.contactSection {
+ overflow: auto;
+ max-width: fit-content;
+}
+
 #contact-form {
  display: block;
  max-width: 600px;
@@ -719,6 +724,8 @@ body {
  border: 1px solid;
  /* margin: 0rem 0rem; */
 }
+
+
 
 /* HEART START */
 .with-love {
@@ -852,13 +859,11 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
-    .icons {
-        display: grid;
-        margin-top: 2rem;
-        /* margin-bottom: rem; */
-        /* column-gap: 0; */
-        justify-content: center;
-       }
-   }
-
- 
+ .icons {
+  display: grid;
+  margin-top: 2rem;
+  /* margin-bottom: rem; */
+  /* column-gap: 0; */
+  justify-content: center;
+ }
+}
