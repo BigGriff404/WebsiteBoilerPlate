@@ -581,6 +581,15 @@ body {
  transition: 0.3s ease-in;
 }
 
+.services__btn a {
+ color: var(--myDarkCyan);
+ text-decoration: none;
+}
+
+.services__btn a:visited {
+ color: var(--myDarkOrange);
+}
+
 .services__card:nth-child(2) {
  background: #56ab2f; /* fallback for old browsers */
  background: -webkit-linear-gradient(
@@ -677,7 +686,7 @@ body {
 /* FORM / CONTACT */
 
 .contactSection {
- overflow: auto; 
+ overflow: auto;
 }
 
 #contact-form {
@@ -724,8 +733,6 @@ body {
  /* margin: 0rem 0rem; */
 }
 
-
-
 /* HEART START */
 .with-love {
  font-size: 30px;
@@ -762,10 +769,6 @@ legend {
 fieldset {
  margin-bottom: 30px;
  border: none;
-}
-
-a[href^="mailto:"]::after {
- content: "&#128231; 📨📩";
 }
 
 footer {
