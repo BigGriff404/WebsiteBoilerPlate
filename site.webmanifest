@@ -1,6 +1,7 @@
 {
     "name": "YungAddyDev's BoilerPlate for Future Projects",
     "short_name": "Boilerplate for YungAddyDev",
+    "description": "This is the Boilerplate for YungAddy",
     "icons": [
         {
             "src": "/favicon/android-chrome-192x192.png",
