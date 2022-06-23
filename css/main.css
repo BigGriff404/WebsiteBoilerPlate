@@ -576,6 +576,8 @@ body {
  grid-template-rows: 1fr;
 }
 
+/* Start of Services Card */
+/* Digital Conulting */
 .services__card {
  margin: 10px;
  height: 425px;
@@ -600,6 +602,7 @@ body {
  color: var(--myDarkOrange);
 }
 
+/* Shopify Card */
 .services__card:nth-child(2) {
  background: #1a6e07; /* fallback for old browsers */
  background: -webkit-linear-gradient(
@@ -614,18 +617,19 @@ body {
  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+/* Instagram Card */
 .services__card:nth-child(3) {
  background: #833ab4; /* fallback for old browsers */
  background: -webkit-linear-gradient(
   -225deg,
-  #fcb045,
-  #fd1d1d,
+  #db8204,
+  #b10202,
   #833ab4
  ); /* Chrome 10-25, Safari 5.1-6 */
  background: linear-gradient(
   -225deg,
-  #fcb045,
-  #fd1d1d,
+  #db8204,
+  #b10202,
   #833ab4
  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
