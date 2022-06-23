@@ -587,7 +587,7 @@ body {
  /* align-items: center; */
  text-align: center;
  color: #e7e7e7;
- background-image: linear-gradient(to right, #8003fe 0%, #ba58ff 100%);
+ background-image: linear-gradient(to right, #8003fe 0%, #6d3099 100%);
  transition: 0.3s ease-in;
 }
 
@@ -601,16 +601,16 @@ body {
 }
 
 .services__card:nth-child(2) {
- background: #56ab2f; /* fallback for old browsers */
+ background: #1a6e07; /* fallback for old browsers */
  background: -webkit-linear-gradient(
   to right,
-  #a8e063,
-  #56ab2f
+  #1a6e07,
+  #226c00
  ); /* Chrome 10-25, Safari 5.1-6 */
  background: linear-gradient(
   to right,
-  #a8e063,
-  #56ab2f
+  #1a6e07,
+  #226c00
  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -631,16 +631,16 @@ body {
 }
 
 .services__card:nth-child(4) {
- background: #f0c27b; /* fallback for old browsers */
+ background: #a1670f; /* fallback for old browsers */
  background: -webkit-linear-gradient(
   -225deg,
   #4b1248 0%,
-  #f0c27b 100%
+  #a1670f 100%
  ); /* Chrome 10-25, Safari 5.1-6 */
  background: linear-gradient(
   -225deg,
   #4b1248,
-  #f0c27b
+  #a1670f
  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -1015,5 +1015,4 @@ fieldset {
 /* again why? idk */
 /* ----------- Apple Watch ----------- */
 @media (max-device-width: 42mm) and (min-device-width: 38mm) {
-    
 }
