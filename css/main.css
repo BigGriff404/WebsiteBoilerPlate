@@ -76,10 +76,11 @@ body {
  color: var(--selectionTEXTColor);
 }
 
-::-moz-selection { /* Code for Firefox */
-    color: var(--selectionTEXTColor);
-    background: var(--selectionBGColor);
-  }
+::-moz-selection {
+ /* Code for Firefox */
+ color: var(--selectionTEXTColor);
+ background: var(--selectionBGColor);
+}
 
 /* NAVBAR START */
 .navbar {
