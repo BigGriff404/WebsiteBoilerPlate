@@ -63,7 +63,10 @@ html {
 html,
 body {
  min-height: 400px;
+ /* MDN: The clear property applies to floating and non-floating elements. */
  clear: both;
+ /* No Vertical Scroll */
+ overflow-x: hidden;
 }
 
 /* SELECTION psudeo element */
@@ -72,6 +75,11 @@ body {
  background-color: var(--selectionBGColor);
  color: var(--selectionTEXTColor);
 }
+
+::-moz-selection { /* Code for Firefox */
+    color: var(--selectionTEXTColor);
+    background: var(--selectionBGColor);
+  }
 
 /* NAVBAR START */
 .navbar {
@@ -737,7 +745,7 @@ body {
 /* HEART START */
 .with-love {
  font-size: 1.5rem;
- color:#f7faea;
+ color: #f7faea;
 }
 .heart {
  fill: var(--heartColor);
@@ -940,7 +948,6 @@ fieldset {
  width: 240px;
 }
 
-
 @media screen and (max-width: 820px) {
  .footer__links {
   padding-top: 1rem;
@@ -961,7 +968,6 @@ fieldset {
  .social__media--wrap {
   flex-direction: column;
  }
-
 }
 
 @media screen and (max-width: 480px) {
@@ -986,18 +992,15 @@ fieldset {
 /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
-    .hero__heading {
-        font-size: 40px;
-       }
-       .cta {
-        font-size: 20px;
-       }
+ .hero__heading {
+  font-size: 40px;
+ }
+ .cta {
+  font-size: 20px;
+ }
 }
 
 /* Why? Idk */
 /* ----------- Moto 360 Watch ----------- */
-@media 
-  (max-device-width: 218px)
-  and (max-device-height: 281px) { 
-
+@media (max-device-width: 218px) and (max-device-height: 281px) {
 }
