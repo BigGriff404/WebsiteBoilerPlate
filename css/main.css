@@ -748,6 +748,10 @@ body {
  font-size: 1.5rem;
  color: #f7faea;
 }
+
+.with-love a {
+ color: var(--myDarkCyan);
+}
 .heart {
  fill: var(--heartColor);
  position: relative;
