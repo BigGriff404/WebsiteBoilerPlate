@@ -147,13 +147,13 @@
   <nav class="navbar">
    <div class="navbar__container">
     <!-- HOME -->
-    <a href="#home" class="logo" title="Main Logo" id="navbar__logo"
+    <a tabindex="0" href="#home" class="logo" title="Main Logo" id="navbar__logo"
      >yungAddyDev</a
     >
     <!-- HAMBURGER MENU FROM REMIX ICON -->
     <!-- The order that we place the checkbox and label here is important because we will use css only for the click event to open the menu on mobile. -->
     <input type="checkbox" id="toggler" />
-    <label for="toggler"><i class="ri-menu-line"></i></label>
+    <label class="menuLabel" for="toggler"><i class="ri-menu-line"></i></label>
     <ul class="navbar__menu">
      <li class="navbar__item">
       <a href="#home" title="Home Section" class="navbar__links" id="home-page"
@@ -166,7 +166,7 @@
        title="About Section"
        class="navbar__links"
        id="about-page"
-       >About</a
+       >About</a        
       >
      </li>
      <li class="navbar__item">
