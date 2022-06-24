@@ -2,17 +2,12 @@
 :root {
  /* firstTheme */
  --text-color: #191818;
- --sectionOne: ;
- --sectionTwo: ;
  --backgroundColor: #f7faea;
- --heartColor: darkviolet;
+ --heartColor: rebeccapurple;
 
- --ctaGradient: linear-gradient(
-  hsl(255.5, 50.8%, 23.9%),
-  hsl(282.7, 66.5%, 41%)
- );
- --myDarkCyan: hsl(162.7, 66.5%, 41%);
- --myDarkOrange: hsl(42.7, 66.5%, 41%);
+ --ctaGradient: linear-gradient(225deg, #2e1e5c, #8623ae);
+ --clr-second: #03fe80;
+ --clr-third: #fe8003;
 
  --selectionBGColor: #9b20b7;
  --selectionTEXTColor: #f7faea;
@@ -25,7 +20,7 @@
  width: 1em;
 }
 ::-webkit-scrollbar-track {
- background: var(--myDarkCyan);
+ background: var(--clr-second);
  border-radius: 100vw;
  margin-block: 0.5em;
 }
@@ -36,7 +31,7 @@
 }
 
 ::-webkit-scrollbar-thumb:hover {
- background: var(--myDarkOrange);
+ background: var(--clr-third);
 }
 /* FIREFOX */
 @supports (scrollbar-color: red blue) {
@@ -81,7 +76,6 @@ body {
  color: var(--selectionTEXTColor);
  background: var(--selectionBGColor);
 }
-
 /* NAVBAR START */
 .navbar {
  background: #131313;
@@ -107,7 +101,12 @@ body {
 
 #navbar__logo {
  background-color: #ba58ff;
- background-image: linear-gradient(to top, #8003fe, #ba58ff);
+ background-image: linear-gradient(
+  -225deg,
+  #0304fe 25%,
+  #8003fe 50%,
+  #03fe80 75%
+ );
  background-size: 100%;
  /* Webkit is used for Chrome & Safari */
  -webkit-background-clip: text;
@@ -120,6 +119,10 @@ body {
  cursor: pointer;
  text-decoration: none;
  font-size: 2rem;
+}
+
+#navbar__logo:focus {
+ outline: 3px solid var(--clr-third);
 }
 
 .navbar__menu {
@@ -141,6 +144,10 @@ body {
  text-decoration: none;
  height: 100%;
  transition: all 0.3s ease;
+}
+
+.navbar__links:focus {
+    outline: 3px solid var(--clr-third);
 }
 
 .navbar__btn {
@@ -179,13 +186,13 @@ body {
 }
 
 .btn:hover {
- box-shadow: 2px 2px var(--myDarkCyan), 4px 4px var(--myDarkCyan),
-  5px 5px var(--myDarkCyan);
+ box-shadow: 2px 2px var(--clr-second), 4px 4px var(--clr-second),
+  5px 5px var(--clr-second);
  transform: translateX(-3px);
 }
 
 .navbar__links:hover {
- color: var(--myDarkCyan);
+ color: var(--clr-second);
  transition: all 0.3s ease;
 }
 
@@ -195,7 +202,7 @@ body {
 }
 
 .ri-menu-line {
- color: var(--myDarkCyan);
+ color: var(--clr-second);
  font-size: 1.75rem;
  cursor: pointer;
  display: none;
@@ -231,7 +238,7 @@ body {
   cursor: pointer;
   font-size: 2rem;
   padding-right: 25px;
-  color: var(--myDarkCyan);
+  color: var(--clr-second);
   margin: 5px auto;
  }
 
@@ -317,7 +324,7 @@ body {
 
 #cta {
  font-size: 40px;
- color: var(--myDarkCyan);
+ color: var(--clr-second);
 }
 
 .main__btn {
@@ -363,9 +370,9 @@ body {
 }
 
 .main__btn:hover {
- /* color: #131313 !important; */
- box-shadow: 2px 2px var(--myDarkCyan), 4px 4px var(--myDarkCyan),
-  5px 5px var(--myDarkCyan);
+ color: #131313;
+ box-shadow: 2px 2px var(--clr-second), 4px 4px var(--clr-second),
+  5px 5px var(--clr-second);
  transform: translateX(-3px);
 }
 
@@ -374,7 +381,7 @@ body {
 }
 /* Focus on MainBtn */
 .main__btn:focus {
- box-shadow: 0 0 0 10px var(--myDarkCyan);
+ box-shadow: 0 0 0 10px var(--clr-second);
 }
 
 .highlight {
@@ -424,8 +431,8 @@ body {
 
 .main__content h2 {
  font-size: 2rem;
- background-color: var(--myDarkCyan);
- background-image: linear-gradient(to top, #23ae86 0%, #35d6a8 100%);
+ background-color: var(--clr-second);
+ background-image: linear-gradient(-225deg, #23ae86 0%, #03fe80 75%);
  background-size: 100%;
  /* Webkit is used for Chrome & Safari */
  -webkit-background-clip: text;
@@ -439,7 +446,7 @@ body {
 .main__content h3 {
  font-size: 4rem;
  background-color: #ba58ff;
- background-image: linear-gradient(to top, #8003fe, #ba58ff);
+ background-image: linear-gradient(-225deg, #8003fe, #ba58ff);
  background-size: 100%;
  /* Webkit is used for Chrome & Safari */
  -webkit-background-clip: text;
@@ -758,7 +765,7 @@ body {
 }
 
 .with-love a {
- color: var(--myDarkCyan);
+ color: var(--clr-second);
 }
 .heart {
  fill: var(--heartColor);
