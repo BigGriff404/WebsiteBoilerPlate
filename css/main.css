@@ -147,7 +147,7 @@ body {
 }
 
 .navbar__links:focus {
-    outline: 3px solid var(--clr-third);
+ outline: 3px solid var(--clr-third);
 }
 
 .navbar__btn {
@@ -189,6 +189,10 @@ body {
  box-shadow: 2px 2px var(--clr-second), 4px 4px var(--clr-second),
   5px 5px var(--clr-second);
  transform: translateX(-3px);
+}
+
+.btn:focus {
+ outline: 3px solid var(--clr-second);
 }
 
 .navbar__links:hover {
