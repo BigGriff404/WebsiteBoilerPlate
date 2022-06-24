@@ -24,7 +24,7 @@ const NICKNAMES = [
   occupation:
    "Boyfriend of 3years \uD83E\uDD1F\uD83C\uDFFD \uD83D\uDC9C \uD83D\uDE18",
  },
- { name: "BizquikBandit", occupation: "Underground Rapper \uD83C\uDFA4" },
+ { name: "BizquikBandit", occupation: "Underground Rapper \uD83C\uDFA4 \uD83C\uDFA7" },
 ];
 
 NICKNAMES.forEach((NICKNAMES) => {
