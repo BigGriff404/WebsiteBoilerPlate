@@ -220,8 +220,8 @@ a:focus {
  display: none;
 }
 
-.ri-menu-line:focus{
-    outline: 1px var(--clr-third);
+.ri-menu-line:focus {
+ outline: 1px var(--clr-third);
 }
 
 /* NAVBAR MOBILE START */
