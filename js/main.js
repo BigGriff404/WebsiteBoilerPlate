@@ -24,7 +24,10 @@ const NICKNAMES = [
   occupation:
    "Boyfriend of 3years \uD83E\uDD1F\uD83C\uDFFD \uD83D\uDC9C \uD83D\uDE18",
  },
- { name: "BizquikBandit", occupation: "Underground Rapper \uD83C\uDFA4 \uD83C\uDFA7" },
+ {
+  name: "BizquikBandit",
+  occupation: "Underground Rapper \uD83C\uDFA4 \uD83C\uDFA7",
+ },
 ];
 
 NICKNAMES.forEach((NICKNAMES) => {
@@ -42,5 +45,5 @@ console.group(
 console.log("Take the Small Victories");
 console.log("God Doesn't Make Mistakes");
 console.groupEnd();
-console.warn("Puttin too much dip on ya chip!")
-console.error("Stop being Lazy & Get to Work!")
+console.warn("Puttin too much dip on ya chip!");
+console.error("Stop being Lazy & Get to Work!");
