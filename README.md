@@ -19,7 +19,7 @@ Check out the website [here!](https://yungaddyboilerplate.netlify.app "See what 
 
 The first thing to notice when you open the website and look at the Developer Tools, is the console and code. Take a look!
 
-[Console ScreenShot](Screenshot_ConsoleMD.png "Screenshot of my Console")
+![Console ScreenShot](Screenshot_ConsoleMD.png "Screenshot of my Console")
 
 > "If you used Developer Tools to find this, then follow me on Instagram!"
 
