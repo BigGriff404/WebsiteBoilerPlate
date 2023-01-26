@@ -9,7 +9,7 @@ Shout out to Dennis Ivy, Kevin Powell and Brian Design
 
 I wrote that a long time ago it seems like..
 
-This is now 1/24/2023, I made a life change and I want to win in every aspect!
+This is now 1/26/2023, I made a life change and I want to win in every aspect!
 
 Check out the website [here!](https://yungaddyboilerplate.netlify.app "See what I can do!")
 
