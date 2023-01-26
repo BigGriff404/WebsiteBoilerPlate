@@ -14,3 +14,9 @@ This is now 1/23/2023, I made a life change and I want to win in every aspect!
 Check out the website [here!](https://yungaddyboilerplate.netlify.app "See what I can do!")
 
 ***
+
+## console.log
+
+The first thing to notice when you open the website and press Ctrl + Shift + I, is the console. Take a look!
+
+[Console ScreenShot](Screenshot_ConsoleMD.png)
