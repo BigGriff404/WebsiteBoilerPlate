@@ -26,3 +26,23 @@ The first thing to notice when you open the website and look at the Developer To
 [My Instagram!](https://www.instagram.com/yungaddydev/ "@yungaddydev")
 
 I'm not trying to post like I know everything. Just that I'm doing something in general.
+
+## HTML
+
+### Meta Data
+
+The most important thing that I focused on with HTML was the Meta Data for my website.
+
+- Description
+- Author
+- Keywords
+- http-equiv
+- Viewport
+- mobile-web-app-capable
+- theme-color for light and dark color scheme
+- Open Graph
+- Twitter Cards when sharing the link
+- Web App Manifest
+- Favicons
+
+& Etc!
