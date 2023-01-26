@@ -29,8 +29,6 @@ I'm not trying to post like I know everything. Just that I'm doing something in 
 
 The next thing I did was try to understand the console just a little better with Javascript.
 
-
-
 ## HTML
 
 ### Meta Data
@@ -38,7 +36,9 @@ The next thing I did was try to understand the console just a little better with
 The most important thing that I focused on with HTML was the Meta Data for my website.
 
 - Description
+![Meta Description Tag](/images/metaDescriptionCode.png "CodeSnaP of my Meta Description")
 - Author
+![Meta Author](/images/metaDescriptionCode.png "CodeSnaP of my Meta Author")
 - Keywords
 - http-equiv
 - Viewport
