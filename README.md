@@ -46,10 +46,11 @@ The most important thing that I focused on with HTML was the Meta Data for my we
 - Viewport
 ![Meta Viewport](/images/viewportCode.png "CodeSnap of my Meta Tag for Viewport")
 - mobile-web-app-capable
-![Meta PWA](/images/MobilewebappCode.png "CodeSnap of my Meta Tag for Theme Color")
+![Meta PWA](/images/MobilewebappCode.png "CodeSnap of my Meta Tag for PWA")
 - theme-color for light and dark color scheme
 ![Meta Theme](/images/themeColorCode.png "CodeSnap of my Meta Tag for Theme Color")
 - Open Graph
+![Meta Open Graph](/images/OGraphCode.png"CodeSnap of my Meta Tags for Open Graph")
 - Twitter Cards when sharing the link
 - Web App Manifest
 - Favicons
