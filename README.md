@@ -25,6 +25,8 @@ The first thing to notice when you open the website and look at the Developer To
 
 [My Instagram!](https://www.instagram.com/yungaddydev/ "@yungaddydev")
 
+[My Twitter!](https://www.twitter.com/yungaddydev/ "@yungaddydev")
+
 I'm not trying to post like I know everything. Just that I'm doing something in general.
 
 The next thing I did was try to understand the console just a little better with Javascript.
