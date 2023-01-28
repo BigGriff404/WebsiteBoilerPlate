@@ -40,8 +40,9 @@ The most important thing that I focused on with HTML was the Meta Data for my we
 - Author
 ![Meta Author](/images/metaDescriptionCode.png "CodeSnap of my Meta Author")
 - Keywords
-![Meta Keywords](/images/keywordsCode.png "CodeSnap of my Meta Author")
+![Meta Keywords](/images/keywordsCode.png "CodeSnap of my Meta Keywords")
 - http-equiv
+![Meta IE](/images/IECode.png "CodeSnap of my Meta Tag for IE")
 - Viewport
 - mobile-web-app-capable
 - theme-color for light and dark color scheme
@@ -51,3 +52,5 @@ The most important thing that I focused on with HTML was the Meta Data for my we
 - Favicons
 
 & Etc!
+
+Sooner or later, I will remake this and teach myself all over again while learning Javascript!
