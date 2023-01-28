@@ -44,8 +44,10 @@ The most important thing that I focused on with HTML was the Meta Data for my we
 - http-equiv
 ![Meta IE](/images/IECode.png "CodeSnap of my Meta Tag for IE")
 - Viewport
+![Meta Viewport](/images/viewportCode.png "CodeSnap of my Meta Tag for Viewport")
 - mobile-web-app-capable
 - theme-color for light and dark color scheme
+![Meta Theme](/images/themeColorCode.png "CodeSnap of my Meta Tag for Theme Color")
 - Open Graph
 - Twitter Cards when sharing the link
 - Web App Manifest
