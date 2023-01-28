@@ -55,7 +55,8 @@ The most important thing that I focused on with HTML was the Meta Data for my we
 ![Meta Twitter](/images/TwitterCardCode.png "CodeSnap of my Meta Tags for Twitter")
 - Web App Manifest
 ![Meta Manifest](/images/ManifestCode.png "CodeSnap of my Meta Tags for my site Manifest")
-- Favicons (from this generator I found)
+- Favicons (from this [generator](https://realfavicongenerator.net "Favicon Generator")
+ I found)
 ![Meta Favicon](/images/FaviconCode.png "CodeSnap of my Meta Tags for my Favicon")
 
 & Etc!
