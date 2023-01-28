@@ -46,6 +46,7 @@ The most important thing that I focused on with HTML was the Meta Data for my we
 - Viewport
 ![Meta Viewport](/images/viewportCode.png "CodeSnap of my Meta Tag for Viewport")
 - mobile-web-app-capable
+![Meta PWA](/images/MobilewebappCode.png "CodeSnap of my Meta Tag for Theme Color")
 - theme-color for light and dark color scheme
 ![Meta Theme](/images/themeColorCode.png "CodeSnap of my Meta Tag for Theme Color")
 - Open Graph
