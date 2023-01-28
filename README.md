@@ -50,10 +50,13 @@ The most important thing that I focused on with HTML was the Meta Data for my we
 - theme-color for light and dark color scheme
 ![Meta Theme](/images/themeColorCode.png "CodeSnap of my Meta Tag for Theme Color")
 - Open Graph
-![Meta Open Graph](/images/OGraphCode.png"CodeSnap of my Meta Tags for Open Graph")
+![Meta Open Graph](/images/OGraphCode.png "CodeSnap of my Meta Tags for Open Graph")
 - Twitter Cards when sharing the link
+![Meta Twitter](/images/TwitterCardCode.png "CodeSnap of my Meta Tags for Twitter")
 - Web App Manifest
-- Favicons
+![Meta Manifest](/images/ManifestCode.png "CodeSnap of my Meta Tags for my site Manifest")
+- Favicons (from this generator I found)
+![Meta Favicon](/images/FaviconCode.png "CodeSnap of my Meta Tags for my Favicon")
 
 & Etc!
 
