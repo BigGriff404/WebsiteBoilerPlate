@@ -46,7 +46,7 @@ A JSON text file that provides info about the web application. Must provide back
 
 ### NavBar (Navigation)
 
-I put everything in a `<nav>` element so it represents a section of this page whose purpse is to provide navigation links within the document of other documents. The "nav" is only intended for a block of navigation links. The footer also has links that don't need to be in the "nav" element.
+I put everything in a `<nav>` element so it represents a section of this page whose purpse is to provide navigation links within the document of other documents. The `<nav>` is only intended for a block of navigation links. The footer also has links that don't need to be in the `<nav>` element.
 
 In my example, the nav element contains an unordered list with list items that is presented as a drop down menu on mobile and a bar on desktop.
 
