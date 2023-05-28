@@ -27,6 +27,4 @@ The first thing to notice when you open the website and look at the Developer To
 
 I'm not trying to post like I know everything. Just that I'm doing something in general.
 
-The next thing I did was try to understand the console just a little better with Javascript.
-
 Sooner or later, I will remake this and teach myself all over again while learning Javascript!

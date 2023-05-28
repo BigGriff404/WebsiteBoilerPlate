@@ -27,3 +27,25 @@ The most important thing that I focused on with HTML was the Meta Data for my we
 - Favicons (from this [generator](https://realfavicongenerator.net "Favicon Generator")
  I found)
 ![Meta Favicon](/images/FaviconCode.png "CodeSnap of my Meta Tags for my Favicon")
+
+***
+
+## What is ..?
+
+### Canonical
+
+A canonical URL is the URL of the principal version of a page when you have duplicate versions of that page on your website. It is essential for SEO and helps Google find your website.
+
+### Web App Manifest
+
+a JSON text file that provides info about the web application. Must provide background color, categories, description, display, icons, name, orientation, screenshots, theme color and etc.
+
+***
+
+## Body
+
+### NavBar (Navigation)
+
+I put everything in a "nav" element so it represents a section of this page whose purpse is to provide navigation links within the document of other documents. The "nav" is only intended for a block of navigation links. The footer also has links that don't need to be in the "nav" element.
+
+In my example, the nav element contains an unordered list with list items that is presented as a drop down menu on mobile and a bar on desktop.
