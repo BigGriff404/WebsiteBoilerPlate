@@ -13,18 +13,6 @@ Check out the website [here!](https://yungaddyboilerplate.netlify.app "See what 
 
 ***
 
-## console.log
-
-The first thing to notice when you open the website and look at the Developer Tools or `Ctrl` + `Shift` + `I`, is the console and code. Take a look!
-
-![Console ScreenShot](/images/Screenshot_ConsoleMD.png "Screenshot of my Console")
-
-> "If you used Developer Tools to find this, then follow me on Instagram!"
-
 [My Instagram!](https://www.instagram.com/yungaddydev/ "@yungaddydev")
 
 [My Twitter!](https://www.twitter.com/yungaddydev/ "@yungaddydev")
-
-I'm not trying to post like I know everything. Just that I'm doing something in general.
-
-Sooner or later, I will remake this and teach myself all over again while learning Javascript!
