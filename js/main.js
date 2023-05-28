@@ -38,7 +38,6 @@ console.warn("Puttin too much dip on ya chip!");
 console.error("Stop being Lazy & Get to Work!");
 
 console.log(`
-
 _        _    _                  _             _              _                _            _        _        _       _            _     _          _  
 /\ \     /\_\ /\_\               /\ \     _    /\ \           / /\             /\ \         /\ \     /\ \     /\_\    /\ \         /\ \  /\ \    _ / /\ 
 \ \ \   / / // / /         _    /  \ \   /\_\ /  \ \         / /  \           /  \ \____   /  \ \____\ \ \   / / /   /  \ \____   /  \ \ \ \ \  /_/ / / 
