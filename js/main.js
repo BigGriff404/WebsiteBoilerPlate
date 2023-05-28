@@ -36,10 +36,3 @@ console.log("God Doesn't Make Mistakes");
 console.groupEnd();
 console.warn("Puttin too much dip on ya chip!");
 console.error("Stop being Lazy & Get to Work!");
-
-console.log(`
-_  _  __  __  _  _  ___    __    ____  ____  _  _  ____  ____  _  _ 
-( \/ )(  )(  )( \( )/ __)  /__\  (  _ \(  _ \( \/ )(  _ \( ___)( \/ )
- \  /  )(__)(  )  (( (_-. /(__)\  )(_) ))(_) )\  /  )(_) ))__)  \  / 
- (__) (______)(_)\_)\___/(__)(__)(____/(____/ (__) (____/(____)  \/  
-`);
