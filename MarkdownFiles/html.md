@@ -38,7 +38,7 @@ A canonical URL is the URL of the principal version of a page when you have dupl
 
 ### Web App Manifest
 
-a JSON text file that provides info about the web application. Must provide background color, categories, description, display, icons, name, orientation, screenshots, theme color and etc.
+A JSON text file that provides info about the web application. Must provide background color, categories, description, display, icons, name, orientation, screenshots, theme color and etc.
 
 ***
 
@@ -46,6 +46,12 @@ a JSON text file that provides info about the web application. Must provide back
 
 ### NavBar (Navigation)
 
-I put everything in a "nav" element so it represents a section of this page whose purpse is to provide navigation links within the document of other documents. The "nav" is only intended for a block of navigation links. The footer also has links that don't need to be in the "nav" element.
+I put everything in a `<nav>` element so it represents a section of this page whose purpse is to provide navigation links within the document of other documents. The "nav" is only intended for a block of navigation links. The footer also has links that don't need to be in the "nav" element.
 
 In my example, the nav element contains an unordered list with list items that is presented as a drop down menu on mobile and a bar on desktop.
+
+### Hero Section
+
+A Hero Section is the area that immediately shows up on screen under your navigation. This usually holds the headline that includes short and effective text to engage the user, imagery & logo associated with the company, what services you may offer and a "call to action" button.
+
+Call to Action or CTA, is what you want your users to do when they first want to interact with. Depending on the ultimate goal, you may use this feature to contact the user, grow your email subscribers, purchase products or learn more about the company.
