@@ -40,6 +40,12 @@ A canonical URL is the URL of the principal version of a page when you have dupl
 
 A JSON text file that provides info about the web application. Must provide background color, categories, description, display, icons, name, orientation, screenshots, theme color and etc.
 
+### Mailto
+
+I use `href=mailto:` so users can send emails directly to me, with the subject and body parameter already included.
+
+I used a [mailto Generator](https://mailtolink.me "mailto Generator") for this to work.
+
 ***
 
 ## Body
@@ -50,8 +56,14 @@ I put everything in a `<nav>` element so it represents a section of this page wh
 
 In my example, the nav element contains an unordered list with list items that is presented as a drop down menu on mobile and a bar on desktop.
 
+***
+
 ### Hero Section
 
 A Hero Section is the area that immediately shows up on screen under your navigation. This usually holds the headline that includes short and effective text to engage the user, imagery & logo associated with the company, what services you may offer and a "call to action" button.
 
 Call to Action or CTA, is what you want your users to do when they first want to interact with. Depending on the ultimate goal, you may use this feature to contact the user, grow your email subscribers, purchase products or learn more about the company.
+
+I used the CTA to say "Let's Meet" because I want to be able to reach a client quickly through email.
+
+***
