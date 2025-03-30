@@ -1,5 +1,5 @@
 console.log(
- "%cIf you used Developer Tools to find this, then follow me on Instagram & Twitter! @yungaddydev",
+ "%cIf you used Developer Tools to find this, then follow me on Instagram! @yungaddydev",
  "font-family: Cascadia Code ; display: inline-block; background: linear-gradient(-225deg,#002025,#250600); margin: 1.5em auto; border-radius: 1em; font-weight: bold; padding: 20px; font-size: 30px;color: #ffffff ; text-shadow: 3px 3px 0 #b837ea , 6px 6px 0 #aa11bb  , 9px 9px 0 #90006c  , 12px 12px 0 #56002a  , 15px 15px 0 #25000d   "
 );
 
